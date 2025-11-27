@@ -32,3 +32,21 @@ To compile and run this program, you will need a C compiler (like GCC) installed
 ## 📖 Usage
 
 The program presents a menu with four options:
+
+### 1. Add Product
+Enter the product's ID, name, price, and initial stock quantity.
+
+### 2. Display Products
+View the details of all products currently stored in the system.
+
+### 3. Make Sale
+Enter the ID of the product being sold and the quantity. The system will process the sale, reduce the stock, and output the total sale amount.
+
+### 4. Exit
+Close the program.
+
+## 💡 Code Details
+
+* The inventory is managed using a `struct Product` definition.
+* Products are stored in a fixed-size array (`products[100]`).
+* The system operates within an infinite `while(1)` loop, driven by user input (`scanf`) until the user chooses the 'Exit' option.
